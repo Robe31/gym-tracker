@@ -1,0 +1,63 @@
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app-form .pr-0 {
+  padding-right: 15px !important;
+}
+
+#app-form .px-0 {
+  padding: 0 15px !important;
+}
+
+#app-form .pl-0 {
+  padding-left: 15px !important;
+}
+
+#app-form .addExBtn {
+  width: 100%;
+}
+
+#endWO {
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  #app-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #app-form .pr-0 {
+    padding-right: 0 !important;
+  }
+  #app-form .px-0 {
+    padding: 0 0 !important;
+  }
+  #app-form .pl-0 {
+    padding-left: 0 !important;
+  }
+  #app-form .addExBtn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
